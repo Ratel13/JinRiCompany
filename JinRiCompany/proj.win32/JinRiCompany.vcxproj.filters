@@ -1,0 +1,656 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{3511ef28-b641-4633-bd1f-326c2d463dea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\ipad">
+      <UniqueIdentifier>{a054b5e6-873d-455d-a998-f2a61bc575eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CustomTableViewCell.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataConvert.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FDMenu.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FDScrollView.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PersonalApi.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S0FirstPage.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S01FirstPage.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S1JinRiShangPinScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S2ZiBu.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S3SijiYangSheng.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S4HeZuo.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S5DingGou.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S6PeiXun.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S11CompanyInfo.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S12Leader.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S13News.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S14Brand.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S15ShowVideo.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S21ZiBuLei.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S22PicDetail.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S23DetailIntro.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S24AutoPlay.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S25ShowVideo.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S31MeiShi.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S32XiaoTieShi.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S33ZiXun.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S35ShowVideo.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S41Detail.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S45ShowVideo.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S51DingGou.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S52Process.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S55ShowVideo.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S61Detail.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S65ShowVideo.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S131More.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S132Detail.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S311Detail.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S321Detail.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S411FeedBack.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S521Detail.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S3111Intro.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ScriptParser.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppMacros.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CustomTableViewCell.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataConvert.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FDMenu.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FDScrollView.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PersonalApi.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S0FirstPage.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S01FirstPage.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S1JinRiShangPinScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S2ZiBu.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S3SijiYangSheng.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S4HeZuo.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S5DingGou.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S6PeiXun.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S11CompanyInfo.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S12Leader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S13News.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S14Brand.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S15ShowVideo.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S21ZiBuLei.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S22PicDetail.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S23DetailIntro.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S24AutoPlay.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S25ShowVideo.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S31MeiShi.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S32XiaoTieShi.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S33ZiXun.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S35ShowVideo.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S41Detail.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S45ShowVideo.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S51DingGou.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S52Process.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S55ShowVideo.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S61Detail.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S65ShowVideo.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S131More.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S132Detail.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S311Detail.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S321Detail.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S411FeedBack.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S521Detail.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\S3111Intro.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ScriptParser.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\ipad\begin.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\Bg.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\FeedBack.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\firstPage.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\Main.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\navBar.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\PBackBtn.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\PFootBar.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\PLogoOne.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\PLogoTwo.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\PNavBar.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\PNavStall.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\PNextBtn.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\PPreBtn.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\PSubNavBackground.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\quit.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\refreshNew.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S1JinRiShangPin.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S1PSubBottom.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S1ShowVideo.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S2BigPic.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S2PSideNavBottomImg.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S2PSideNavDong.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S2PSideNavHai.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S2PSideNavLu.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S2PSideNavShi.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S2PSideNavXing.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S2PSideNavYan.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S2ShowVideo.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S2ZiBu.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S3qita.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S3ShowVideo.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S3SijiYangSheng.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S3WordPic.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S4HeZuo.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S4ShowVideo.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S4TuWen1.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S4TuWen8.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S5DingGou.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S5ShowVideo.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S6PeiXun.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S6ShowVideo.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S11BigPic.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S11CompanyInfo.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S11triangle.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S12GroundImg.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S12Leader.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S12Leader_1.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S12Leader_2.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S12Leader_3.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S13News.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S13PLeftimg.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\s13PMiddleString.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S13PRightPoint.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S14Brand.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\s14tuwen.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S15Big_1.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S15ShowVideo.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S15Small_1.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S21SideNavBackground.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S21ZiBuLei.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S22DisplayBackground.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S22DisplayPrevBtn.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S22PicDetail.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S23DetailIntro.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S23subNavLastBackgroung.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S24AutoPlay.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S24yj.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S24ym.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S25ShowVideo.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S31Back.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S31MeiShi.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S31Nex.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S31Product_01.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S31Product_02.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S31Product_03.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S31Product_04.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S31Product_05.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S31Product_06.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S31Prv.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S31TitleImg.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S31Titlejinri.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S31Yaoshan_01.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S31YaoshanDisplay_01.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S32DispalySmall1.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S32XiaoTieShi.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S33BigPic.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S33QQ.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S33ZiXun.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S35ShowVideo.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S35Xuxian.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S41Detail.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S41FeedBack.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S45ShowVideo.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S49Radio.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S49RadioSelected.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S49Submit.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S49Submitbtn.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S51DingGou.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S52Process.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S55ShowVideo.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S61Detail.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S61FeedBack.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S65ShowVideo.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S131More.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\s131RightWordBottom.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\s132Circle.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S132Detail.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S133TuWen.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S241DetailPage.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S311Detail.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S311Intro.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S321Detail.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S321ScrollPic.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S411FeedBack.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S521Detail.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\S3111Intro.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\ShowVideo.plist">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\startlogo.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+    <None Include="..\Resources\ipad\view-refresh.png">
+      <Filter>Resources\ipad</Filter>
+    </None>
+  </ItemGroup>
+</Project>

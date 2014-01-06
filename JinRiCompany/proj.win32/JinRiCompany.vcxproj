@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{76A39BB2-9B84-4C65-98A5-654D86B86F2A}</ProjectGuid>
+    <RootNamespace>test_win32</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\external;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\CocosDenshion\include;$(ProjectDir)..\..\..\extensions;..\Classes;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libExtensions.lib;libcocos2d.lib;libCocosDenshion.lib;opengl32.lib;glew32.lib;libBox2d.lib;libchipmunk.lib;libcurl_imp.lib;pthreadVCE2.lib;websockets.lib;libiconv.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutDir)"</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\external;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\CocosDenshion\include;$(ProjectDir)..\..\..\extensions;..\Classes;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libExtensions.lib;libcocos2d.lib;libCocosDenshion.lib;opengl32.lib;glew32.lib;libBox2d.lib;libchipmunk.lib;libcurl_imp.lib;pthreadVCE2.lib;websockets.lib;libiconv.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutDir)"</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\CustomTableViewCell.cpp" />
+    <ClCompile Include="..\Classes\DataConvert.cpp" />
+    <ClCompile Include="..\Classes\FDMenu.cpp" />
+    <ClCompile Include="..\Classes\FDScrollView.cpp" />
+    <ClCompile Include="..\Classes\MainScene.cpp" />
+    <ClCompile Include="..\Classes\PersonalApi.cpp" />
+    <ClCompile Include="..\Classes\S01FirstPage.cpp" />
+    <ClCompile Include="..\Classes\S0FirstPage.cpp" />
+    <ClCompile Include="..\Classes\S11CompanyInfo.cpp" />
+    <ClCompile Include="..\Classes\S12Leader.cpp" />
+    <ClCompile Include="..\Classes\S131More.cpp" />
+    <ClCompile Include="..\Classes\S132Detail.cpp" />
+    <ClCompile Include="..\Classes\S13News.cpp" />
+    <ClCompile Include="..\Classes\S14Brand.cpp" />
+    <ClCompile Include="..\Classes\S15ShowVideo.cpp" />
+    <ClCompile Include="..\Classes\S1JinRiShangPinScene.cpp" />
+    <ClCompile Include="..\Classes\S21ZiBuLei.cpp" />
+    <ClCompile Include="..\Classes\S22PicDetail.cpp" />
+    <ClCompile Include="..\Classes\S23DetailIntro.cpp" />
+    <ClCompile Include="..\Classes\S24AutoPlay.cpp" />
+    <ClCompile Include="..\Classes\S25ShowVideo.cpp" />
+    <ClCompile Include="..\Classes\S2ZiBu.cpp" />
+    <ClCompile Include="..\Classes\S3111Intro.cpp" />
+    <ClCompile Include="..\Classes\S311Detail.cpp" />
+    <ClCompile Include="..\Classes\S31MeiShi.cpp" />
+    <ClCompile Include="..\Classes\S321Detail.cpp" />
+    <ClCompile Include="..\Classes\S32XiaoTieShi.cpp" />
+    <ClCompile Include="..\Classes\S33ZiXun.cpp" />
+    <ClCompile Include="..\Classes\S35ShowVideo.cpp" />
+    <ClCompile Include="..\Classes\S3SijiYangSheng.cpp" />
+    <ClCompile Include="..\Classes\S411FeedBack.cpp" />
+    <ClCompile Include="..\Classes\S41Detail.cpp" />
+    <ClCompile Include="..\Classes\S45ShowVideo.cpp" />
+    <ClCompile Include="..\Classes\S4HeZuo.cpp" />
+    <ClCompile Include="..\Classes\S51DingGou.cpp" />
+    <ClCompile Include="..\Classes\S521Detail.cpp" />
+    <ClCompile Include="..\Classes\S52Process.cpp" />
+    <ClCompile Include="..\Classes\S55ShowVideo.cpp" />
+    <ClCompile Include="..\Classes\S5DingGou.cpp" />
+    <ClCompile Include="..\Classes\S61Detail.cpp" />
+    <ClCompile Include="..\Classes\S65ShowVideo.cpp" />
+    <ClCompile Include="..\Classes\S6PeiXun.cpp" />
+    <ClCompile Include="..\Classes\ScriptParser.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\AppMacros.h" />
+    <ClInclude Include="..\Classes\CustomTableViewCell.h" />
+    <ClInclude Include="..\Classes\DataConvert.h" />
+    <ClInclude Include="..\Classes\FDMenu.h" />
+    <ClInclude Include="..\Classes\FDScrollView.h" />
+    <ClInclude Include="..\Classes\MainScene.h" />
+    <ClInclude Include="..\Classes\PersonalApi.h" />
+    <ClInclude Include="..\Classes\S01FirstPage.h" />
+    <ClInclude Include="..\Classes\S0FirstPage.h" />
+    <ClInclude Include="..\Classes\S11CompanyInfo.h" />
+    <ClInclude Include="..\Classes\S12Leader.h" />
+    <ClInclude Include="..\Classes\S131More.h" />
+    <ClInclude Include="..\Classes\S132Detail.h" />
+    <ClInclude Include="..\Classes\S13News.h" />
+    <ClInclude Include="..\Classes\S14Brand.h" />
+    <ClInclude Include="..\Classes\S15ShowVideo.h" />
+    <ClInclude Include="..\Classes\S1JinRiShangPinScene.h" />
+    <ClInclude Include="..\Classes\S21ZiBuLei.h" />
+    <ClInclude Include="..\Classes\S22PicDetail.h" />
+    <ClInclude Include="..\Classes\S23DetailIntro.h" />
+    <ClInclude Include="..\Classes\S24AutoPlay.h" />
+    <ClInclude Include="..\Classes\S25ShowVideo.h" />
+    <ClInclude Include="..\Classes\S2ZiBu.h" />
+    <ClInclude Include="..\Classes\S3111Intro.h" />
+    <ClInclude Include="..\Classes\S311Detail.h" />
+    <ClInclude Include="..\Classes\S31MeiShi.h" />
+    <ClInclude Include="..\Classes\S321Detail.h" />
+    <ClInclude Include="..\Classes\S32XiaoTieShi.h" />
+    <ClInclude Include="..\Classes\S33ZiXun.h" />
+    <ClInclude Include="..\Classes\S35ShowVideo.h" />
+    <ClInclude Include="..\Classes\S3SijiYangSheng.h" />
+    <ClInclude Include="..\Classes\S411FeedBack.h" />
+    <ClInclude Include="..\Classes\S41Detail.h" />
+    <ClInclude Include="..\Classes\S45ShowVideo.h" />
+    <ClInclude Include="..\Classes\S4HeZuo.h" />
+    <ClInclude Include="..\Classes\S51DingGou.h" />
+    <ClInclude Include="..\Classes\S521Detail.h" />
+    <ClInclude Include="..\Classes\S52Process.h" />
+    <ClInclude Include="..\Classes\S55ShowVideo.h" />
+    <ClInclude Include="..\Classes\S5DingGou.h" />
+    <ClInclude Include="..\Classes\S61Detail.h" />
+    <ClInclude Include="..\Classes\S65ShowVideo.h" />
+    <ClInclude Include="..\Classes\S6PeiXun.h" />
+    <ClInclude Include="..\Classes\ScriptParser.h" />
+    <ClInclude Include="main.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\cocos2dx\proj.win32\cocos2d.vcxproj">
+      <Project>{98a51ba8-fc3a-415b-ac8f-8c7bd464e93e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\CocosDenshion\proj.win32\CocosDenshion.vcxproj">
+      <Project>{f8edd7fa-9a51-4e80-baeb-860825d2eac6}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\extensions\proj.win32\libExtensions.vcxproj">
+      <Project>{21b2c324-891f-48ea-ad1a-5ae13de12e28}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\external\Box2D\proj.win32\Box2D.vcxproj">
+      <Project>{929480e7-23c0-4df6-8456-096d71547116}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\external\chipmunk\proj.win32\chipmunk.vcxproj">
+      <Project>{207bc7a9-ccf1-4f2f-a04d-45f72242ae25}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\ipad\begin.png" />
+    <None Include="..\Resources\ipad\Bg.png" />
+    <None Include="..\Resources\ipad\FeedBack.png" />
+    <None Include="..\Resources\ipad\firstPage.png" />
+    <None Include="..\Resources\ipad\Main.plist" />
+    <None Include="..\Resources\ipad\navBar.png" />
+    <None Include="..\Resources\ipad\PBackBtn.png" />
+    <None Include="..\Resources\ipad\PFootBar.png" />
+    <None Include="..\Resources\ipad\PLogoOne.png" />
+    <None Include="..\Resources\ipad\PLogoTwo.png" />
+    <None Include="..\Resources\ipad\PNavBar.png" />
+    <None Include="..\Resources\ipad\PNavStall.png" />
+    <None Include="..\Resources\ipad\PNextBtn.png" />
+    <None Include="..\Resources\ipad\PPreBtn.png" />
+    <None Include="..\Resources\ipad\PSubNavBackground.png" />
+    <None Include="..\Resources\ipad\quit.png" />
+    <None Include="..\Resources\ipad\refreshNew.png" />
+    <None Include="..\Resources\ipad\S11BigPic.png" />
+    <None Include="..\Resources\ipad\S11CompanyInfo.plist" />
+    <None Include="..\Resources\ipad\S11triangle.png" />
+    <None Include="..\Resources\ipad\S12GroundImg.png" />
+    <None Include="..\Resources\ipad\S12Leader.plist" />
+    <None Include="..\Resources\ipad\S12Leader_1.png" />
+    <None Include="..\Resources\ipad\S12Leader_2.png" />
+    <None Include="..\Resources\ipad\S12Leader_3.png" />
+    <None Include="..\Resources\ipad\S131More.plist" />
+    <None Include="..\Resources\ipad\s131RightWordBottom.png" />
+    <None Include="..\Resources\ipad\s132Circle.png" />
+    <None Include="..\Resources\ipad\S132Detail.plist" />
+    <None Include="..\Resources\ipad\S133TuWen.png" />
+    <None Include="..\Resources\ipad\S13News.plist" />
+    <None Include="..\Resources\ipad\S13PLeftimg.png" />
+    <None Include="..\Resources\ipad\s13PMiddleString.png" />
+    <None Include="..\Resources\ipad\S13PRightPoint.png" />
+    <None Include="..\Resources\ipad\S14Brand.plist" />
+    <None Include="..\Resources\ipad\s14tuwen.png" />
+    <None Include="..\Resources\ipad\S15Big_1.png" />
+    <None Include="..\Resources\ipad\S15ShowVideo.plist" />
+    <None Include="..\Resources\ipad\S15Small_1.png" />
+    <None Include="..\Resources\ipad\S1JinRiShangPin.plist" />
+    <None Include="..\Resources\ipad\S1PSubBottom.png" />
+    <None Include="..\Resources\ipad\S1ShowVideo.plist" />
+    <None Include="..\Resources\ipad\S21SideNavBackground.png" />
+    <None Include="..\Resources\ipad\S21ZiBuLei.plist" />
+    <None Include="..\Resources\ipad\S22DisplayBackground.png" />
+    <None Include="..\Resources\ipad\S22DisplayPrevBtn.png" />
+    <None Include="..\Resources\ipad\S22PicDetail.plist" />
+    <None Include="..\Resources\ipad\S23DetailIntro.plist" />
+    <None Include="..\Resources\ipad\S23subNavLastBackgroung.png" />
+    <None Include="..\Resources\ipad\S241DetailPage.png" />
+    <None Include="..\Resources\ipad\S24AutoPlay.plist" />
+    <None Include="..\Resources\ipad\S24yj.png" />
+    <None Include="..\Resources\ipad\S24ym.png" />
+    <None Include="..\Resources\ipad\S25ShowVideo.plist" />
+    <None Include="..\Resources\ipad\S2BigPic.png" />
+    <None Include="..\Resources\ipad\S2PSideNavBottomImg.png" />
+    <None Include="..\Resources\ipad\S2PSideNavDong.png" />
+    <None Include="..\Resources\ipad\S2PSideNavHai.png" />
+    <None Include="..\Resources\ipad\S2PSideNavLu.png" />
+    <None Include="..\Resources\ipad\S2PSideNavShi.png" />
+    <None Include="..\Resources\ipad\S2PSideNavXing.png" />
+    <None Include="..\Resources\ipad\S2PSideNavYan.png" />
+    <None Include="..\Resources\ipad\S2ShowVideo.plist" />
+    <None Include="..\Resources\ipad\S2ZiBu.plist" />
+    <None Include="..\Resources\ipad\S3111Intro.plist" />
+    <None Include="..\Resources\ipad\S311Detail.plist" />
+    <None Include="..\Resources\ipad\S311Intro.png" />
+    <None Include="..\Resources\ipad\S31Back.png" />
+    <None Include="..\Resources\ipad\S31MeiShi.plist" />
+    <None Include="..\Resources\ipad\S31Nex.png" />
+    <None Include="..\Resources\ipad\S31Product_01.png" />
+    <None Include="..\Resources\ipad\S31Product_02.png" />
+    <None Include="..\Resources\ipad\S31Product_03.png" />
+    <None Include="..\Resources\ipad\S31Product_04.png" />
+    <None Include="..\Resources\ipad\S31Product_05.png" />
+    <None Include="..\Resources\ipad\S31Product_06.png" />
+    <None Include="..\Resources\ipad\S31Prv.png" />
+    <None Include="..\Resources\ipad\S31TitleImg.png" />
+    <None Include="..\Resources\ipad\S31Titlejinri.png" />
+    <None Include="..\Resources\ipad\S31YaoshanDisplay_01.png" />
+    <None Include="..\Resources\ipad\S31Yaoshan_01.png" />
+    <None Include="..\Resources\ipad\S321Detail.plist" />
+    <None Include="..\Resources\ipad\S321ScrollPic.png" />
+    <None Include="..\Resources\ipad\S32DispalySmall1.png" />
+    <None Include="..\Resources\ipad\S32XiaoTieShi.plist" />
+    <None Include="..\Resources\ipad\S33BigPic.png" />
+    <None Include="..\Resources\ipad\S33QQ.png" />
+    <None Include="..\Resources\ipad\S33ZiXun.plist" />
+    <None Include="..\Resources\ipad\S35ShowVideo.plist" />
+    <None Include="..\Resources\ipad\S35Xuxian.png" />
+    <None Include="..\Resources\ipad\S3qita.png" />
+    <None Include="..\Resources\ipad\S3ShowVideo.plist" />
+    <None Include="..\Resources\ipad\S3SijiYangSheng.plist" />
+    <None Include="..\Resources\ipad\S3WordPic.png" />
+    <None Include="..\Resources\ipad\S411FeedBack.plist" />
+    <None Include="..\Resources\ipad\S41Detail.plist" />
+    <None Include="..\Resources\ipad\S41FeedBack.png" />
+    <None Include="..\Resources\ipad\S45ShowVideo.plist" />
+    <None Include="..\Resources\ipad\S49Radio.png" />
+    <None Include="..\Resources\ipad\S49RadioSelected.png" />
+    <None Include="..\Resources\ipad\S49Submit.png" />
+    <None Include="..\Resources\ipad\S49Submitbtn.png" />
+    <None Include="..\Resources\ipad\S4HeZuo.plist" />
+    <None Include="..\Resources\ipad\S4ShowVideo.plist" />
+    <None Include="..\Resources\ipad\S4TuWen1.png" />
+    <None Include="..\Resources\ipad\S4TuWen8.png" />
+    <None Include="..\Resources\ipad\S51DingGou.plist" />
+    <None Include="..\Resources\ipad\S521Detail.plist" />
+    <None Include="..\Resources\ipad\S52Process.plist" />
+    <None Include="..\Resources\ipad\S55ShowVideo.plist" />
+    <None Include="..\Resources\ipad\S5DingGou.plist" />
+    <None Include="..\Resources\ipad\S5ShowVideo.plist" />
+    <None Include="..\Resources\ipad\S61Detail.plist" />
+    <None Include="..\Resources\ipad\S61FeedBack.png" />
+    <None Include="..\Resources\ipad\S65ShowVideo.plist" />
+    <None Include="..\Resources\ipad\S6PeiXun.plist" />
+    <None Include="..\Resources\ipad\S6ShowVideo.plist" />
+    <None Include="..\Resources\ipad\ShowVideo.plist" />
+    <None Include="..\Resources\ipad\startlogo.png" />
+    <None Include="..\Resources\ipad\view-refresh.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
