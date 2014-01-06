@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>position</key>
+	<dict>
+		<key>firstTitle</key>
+		<dict>
+			<key>x</key>
+			<string>110</string>
+			<key>y</key>
+			<string>620</string>
+		</dict>
+		<key>naviTitle</key>
+		<dict>
+			<key>x</key>
+			<string>280</string>
+			<key>y</key>
+			<string>620</string>
+		</dict>
+		<key>S2PSideNavBottomImg</key>
+		<dict>
+			<key>x</key>
+			<string>120</string>
+			<key>y</key>
+			<string>140</string>
+		</dict>
+	</dict>
+	<key>fontSize</key>
+	<dict>
+		<key>firstTitle</key>
+		<string>40</string>
+		<key>naviTitle</key>
+		<string>16</string>
+	</dict>
+	<key>string</key>
+	<dict>
+		<key>firstTitle</key>
+		<string>尚品培训</string>
+	</dict>
+	<key>groupString</key>
+	<dict>
+		<key>naviTitle</key>
+		<dict>
+			<key>1</key>
+			<string>冬虫夏草</string>
+			<key>2</key>
+			<string>  西洋参 </string>
+			<key>3</key>
+			<string>   海参   </string>
+			<key>4</key>
+			<string>   燕窝   </string>
+			<key>5</key>
+			<string>   鹿茸  </string>
+			<key>6</key>
+			<string>   石斛   </string>
+			<key>7</key>
+			<string>中药饮片</string>
+			<key>8</key>
+			<string>炖煮系列</string>
+			<key>9</key>
+			<string>培训视频</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

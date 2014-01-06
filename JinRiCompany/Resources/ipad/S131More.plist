@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>position</key>
+	<dict>
+		<key>S13PLeftimg</key>
+		<dict>
+			<key>x</key>
+			<string>230</string>
+			<key>y</key>
+			<string>368</string>
+		</dict>
+		<key>scrollPic</key>
+		<dict>
+			<key>x</key>
+			<string>470</string>
+			<key>y</key>
+			<string>100</string>
+		</dict>
+	</dict>
+	<key>fontSize</key>
+	<dict>
+		<key>firstStr</key>
+		<string>40</string>
+		<key>rightFirstTitleCn</key>
+		<string>20</string>
+		<key>rightFirstTitleEn</key>
+		<string>20</string>
+		<key>rightBigTitle</key>
+		<string>20</string>
+		<key>rightTitleDetail</key>
+		<string>18</string>
+	</dict>
+	<key>string</key>
+	<dict>
+		<key>rightFirstTitleCn1</key>
+		<string>公司动态</string>
+		<key>rightFirstTitleEn1</key>
+		<string>Company News</string>
+		<key>rightFirstTitleCn2</key>
+		<string>行业资讯</string>
+		<key>rightFirstTitleEn2</key>
+		<string>Industry News</string>
+	</dict>
+	<key>size</key>
+	<dict>
+		<key>scrollPic</key>
+		<dict>
+			<key>width</key>
+			<string>600</string>
+			<key>height</key>
+			<string>410</string>
+		</dict>
+		<key>rightBigTitle</key>
+		<dict>
+			<key>width</key>
+			<string>450</string>
+			<key>height</key>
+			<string>450</string>
+		</dict>
+		<key>rightTitleDetail</key>
+		<dict>
+			<key>width</key>
+			<string>450</string>
+			<key>height</key>
+			<string>450</string>
+		</dict>
+	</dict>
+	<key>groupString</key>
+	<dict>
+		<key>rightBigTitle</key>
+		<dict>
+			<key>1</key>
+			<string>公司动态                                              2003-5-6</string>
+			<key>2</key>
+			<string>行业资讯                                              2003-5-6</string>
+			<key>3</key>
+			<string>行业资讯                                              2003-5-6</string>
+			<key>4</key>
+			<string>行业资讯                                              2003-5-6</string>
+			<key>5</key>
+			<string>行业资讯                                              2003-5-6</string>
+			<key>6</key>
+			<string>行业资讯                                              2003-5-6</string>
+		</dict>
+		<key>rightTitleDetail</key>
+		<dict>
+			<key>1</key>
+			<string>香港金日大厦香港金1</string>
+			<key>2</key>
+			<string>香港金日大厦香港金日大日大厦2</string>
+			<key>3</key>
+			<string>香港金日大厦香港金日大厦香厦3    </string>
+			<key>4</key>
+			<string>香港金日大厦香港金日大厦香港4    </string>
+			<key>5</key>
+			<string>香港金日大厦香港金日大厦香港金日5    </string>
+			<key>6</key>
+			<string>香港金日大厦香港金日大厦香港6    </string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>position</key>
+	<dict>
+		<key>S23DetailPage</key>
+		<dict>
+			<key>x</key>
+			<string>220</string>
+			<key>y</key>
+			<string>80</string>
+		</dict>
+		<key>bigPic</key>
+		<dict>
+			<key>x</key>
+			<string>220</string>
+			<key>y</key>
+			<string>50</string>
+		</dict>
+	</dict>
+	<key>size</key>
+	<dict>
+		<key>showSize</key>
+		<dict>
+			<key>width</key>
+			<string>500</string>
+			<key>height</key>
+			<string>500</string>
+		</dict>
+	</dict>
+	<key>image</key>
+	<dict>
+		<key>S23DetailPage</key>
+		<string>S23DetailPage.png</string>
+		<key>S23RightDongImg</key>
+		<string>S23RightDongImg.png</string>
+		<key>bigPic</key>
+		<string>S215XingYang.png</string>
+	</dict>
+	<key>groupImage</key>
+	<dict>
+		<key>scrollPic</key>
+		<dict>
+			<key>1</key>
+			<string>S22BigImg.png</string>
+			<key>2</key>
+			<string>S22BigImg.png</string>
+			<key>3</key>
+			<string>S22BigImg.png</string>
+			<key>4</key>
+			<string>S22BigImg.png</string>
+			<key>5</key>
+			<string>S22BigImg.png</string>
+			<key>6</key>
+			<string>S22BigImg.png</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

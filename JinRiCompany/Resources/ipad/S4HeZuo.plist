@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>position</key>
+	<dict>
+		<key>firstTitle</key>
+		<dict>
+			<key>x</key>
+			<string>110</string>
+			<key>y</key>
+			<string>620</string>
+		</dict>
+		<key>naviTitle</key>
+		<dict>
+			<key>x</key>
+			<string>280</string>
+			<key>y</key>
+			<string>620</string>
+		</dict>
+		<key>S2PSideNavBottomImg</key>
+		<dict>
+			<key>x</key>
+			<string>120</string>
+			<key>y</key>
+			<string>140</string>
+		</dict>
+	</dict>
+	<key>fontSize</key>
+	<dict>
+		<key>firstTitle</key>
+		<string>40</string>
+		<key>naviTitle</key>
+		<string>16</string>
+	</dict>
+	<key>string</key>
+	<dict>
+		<key>firstTitle</key>
+		<string>合作共赢</string>
+	</dict>
+	<key>groupString</key>
+	<dict>
+		<key>naviTitle</key>
+		<dict>
+			<key>1</key>
+			<string>前景展望</string>
+			<key>2</key>
+			<string>店面风采</string>
+			<key>3</key>
+			<string>加盟优势</string>
+			<key>4</key>
+			<string>加盟政策</string>
+			<key>5</key>
+			<string>市场支持</string>
+			<key>6</key>
+			<string>加盟流程</string>
+			<key>7</key>
+			<string>投资问答</string>
+			<key>8</key>
+			<string>我要加盟</string>
+			<key>9</key>
+			<string>视频播放</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

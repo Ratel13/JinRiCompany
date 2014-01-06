@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>position</key>
+	<dict>
+		<key>firstTitle</key>
+		<dict>
+			<key>x</key>
+			<string>140</string>
+			<key>y</key>
+			<string>620</string>
+		</dict>
+		<key>naviTitle</key>
+		<dict>
+			<key>x</key>
+			<string>340</string>
+			<key>y</key>
+			<string>620</string>
+		</dict>
+		<key>S2PSideNavBottomImg</key>
+		<dict>
+			<key>x</key>
+			<string>120</string>
+			<key>y</key>
+			<string>140</string>
+		</dict>
+		<key>back</key>
+		<dict>
+			<key>x</key>
+			<string>970</string>
+			<key>y</key>
+			<string>540</string>
+		</dict>
+	</dict>
+	<key>fontSize</key>
+	<dict>
+		<key>firstTitle</key>
+		<string>40</string>
+		<key>naviTitle</key>
+		<string>25</string>
+	</dict>
+	<key>string</key>
+	<dict>
+		<key>firstTitle</key>
+		<string>四季养生</string>
+	</dict>
+	<key>groupString</key>
+	<dict>
+		<key>naviTitle</key>
+		<dict>
+			<key>1</key>
+			<string>美食养生DIY</string>
+			<key>2</key>
+			<string>养生小贴士</string>
+			<key>3</key>
+			<string>专家咨询</string>
+			<key>4</key>
+			<string>视频播放</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
